@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "tsx watch app.ts",
+    "dev": "tsx watch start.ts",
     "build": "tsc",
     "test": "tsx --test test/*.test.ts",
-    "start": "node dist/app.js"
+    "start": "node dist/start.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
